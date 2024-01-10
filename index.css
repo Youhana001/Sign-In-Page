@@ -1,0 +1,197 @@
+
+body{
+    width: 100%;
+    background: linear-gradient(155deg, #53C79D 13.55%, rgba(142, 231, 199, 0.00) 78.38%);
+    padding: 0;
+    position: relative;
+}
+.temp{
+    color:blue
+}
+.or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or span{
+    font-size: 25px;
+}
+
+#object-3d{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    width: 650px;
+    height: 520px;
+    transform: rotate(-7.182deg);
+    flex-shrink: 0;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left{
+    padding:20px;
+    flex:3;
+    font-family: 'Tauri';
+    position: relative;
+}
+
+.left .head-text{
+    margin-top: 80px;
+    color: #FFF;
+    font-family: Tauri;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    
+   
+}
+.right{
+    flex:4;
+    height: 100vh;
+    border-radius: 55px 0px 0px 55px;
+    background-color: white;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8%;
+    padding-bottom: 0px;
+}
+
+.lng {
+    font-family: "Tauri";
+    width: 70%;
+    display: flex;
+    font-size: 20px;
+    justify-content: flex-end;
+    gap:10px
+}
+.lng span{
+    font-family: "Tauri";
+}
+.lng i{
+    height: 20px;
+    width: 20px;
+    color:#53C79E;
+}
+
+.form-container{
+    width: 70%;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.create-acc{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    font-family: "Tauri";
+    margin-bottom: 30px;
+}
+
+input{
+    font-size: 22px;
+    border: none;
+    padding: 10px;
+    border-bottom: solid 1px #cccaca ;
+    margin-top: 20px;
+    outline: none;
+    letter-spacing: 1.2px;
+    font-family: "Tauri";
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+
+
+.btn-social{
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    padding:13px;
+    font-size: 20px;
+    gap:30px;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    
+}
+.btn-social:hover{
+    color: black;
+    background-color:rgb(210, 210, 210);
+}
+
+.btn-submit{
+    margin-top: 70px;
+    border: none;
+    border-radius:20px;
+    background: #53C79E;
+    padding:20px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Tauri";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    color: black;
+    background-color: green;
+}
+
+.already-acc{
+    letter-spacing: 1.1px;
+    font-family: "Tauri";
+    font-size: 16px; 
+}
+.already-acc a{
+    text-decoration: none;
+    color: #53C79E;
+}
+.already-acc a:hover{
+    color: green;
+}
+.pass-field{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.pass-field input{
+    width: 100%;
+}
+.pass-field i{
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #53C79E;
+}
+#eye-icon{
+    cursor: pointer;
+}
